@@ -86,15 +86,25 @@ h4{
   padding-bottom: 52px;
 }
 
-.footer-list {
-  margin: 0;
-  padding: 0;
-  color: $grey;
+.foot{
+  max-width: 100%;
 }
 
-.footer-list li {
+.foot-list {
+  margin: 0;
+  padding-right: 20px;
+  display: inline-flex;
+}
+
+.foot-list li {
   list-style: none;
-  justify-content: space-between;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.foot-list a{
+  text-decoration: none;
+  color: rgba(255,255,255,.55);
 }
 
 .navbar-brand img{
@@ -103,15 +113,18 @@ h4{
   padding-left: 70px;
 }
 
+.text-box{
+  padding-bottom: 150px;
+}
+
 .row{
-  padding-top: 52px;
-  position: relative;
+  padding-top: 100px;
 }
 
 .row a{
   text-decoration: none;
 }
 
-.spacing{
-  height: 80px;
+.sizing img{
+  width: 33%;
 }
