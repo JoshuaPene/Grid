@@ -44,7 +44,28 @@ $light_grey : #636363;
   margin: 0 auto;
   align-items: baseline;
   padding: 12px 0;
-  color: #666; }
+  color: #666;
+  max-width: 100%;
+}
+
+
+.foot-list {
+  margin: 0;
+  padding-right: 20px;
+  padding-left: 70px;
+  display: inline-flex;
+}
+
+.foot-list li {
+  list-style: none;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.foot-list a{
+  text-decoration: none;
+  color: rgba(255,255,255,.55);
+}
 
 h1{
   font-family: 'Lato';
@@ -84,27 +105,6 @@ h4{
 
 .header{
   padding-bottom: 52px;
-}
-
-.foot{
-  max-width: 100%;
-}
-
-.foot-list {
-  margin: 0;
-  padding-right: 20px;
-  display: inline-flex;
-}
-
-.foot-list li {
-  list-style: none;
-  text-decoration: none;
-  padding-right: 20px;
-}
-
-.foot-list a{
-  text-decoration: none;
-  color: rgba(255,255,255,.55);
 }
 
 .navbar-brand img{
